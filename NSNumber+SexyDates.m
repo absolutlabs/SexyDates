@@ -146,7 +146,7 @@ static char SEXY_DATES_COMPONENTS_KEY;
         components.minute = 0;
         components.hour   = 0;
         components.day    = 0;
-        components.week   = 0;
+        components.weekOfMonth   = 0;
         components.month  = 0;
         components.year   = 0;
         
@@ -167,7 +167,7 @@ static char SEXY_DATES_COMPONENTS_KEY;
     components.minute *= -1;
     components.hour   *= -1;
     components.day    *= -1;
-    components.week   *= -1;
+    components.weekOfMonth   *= -1;
     components.month  *= -1;
     components.year   *= -1;
     
